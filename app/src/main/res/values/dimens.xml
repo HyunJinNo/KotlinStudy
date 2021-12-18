@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+</resources>

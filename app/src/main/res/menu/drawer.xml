@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/intro_menu_name">
+            <menu>
+                <item
+                    android:id="@+id/intro"
+                    android:icon="@drawable/checkbox_on_background"
+                    android:title="@string/intro_menu" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_1" >
+            <menu>
+                <item
+                    android:id="@+id/menu_1_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_1_1" />
+                <item
+                    android:id="@+id/menu_1_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_1_2" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_2" >
+            <menu>
+                <item
+                    android:id="@+id/menu_2_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_2_1" />
+                <item
+                    android:id="@+id/menu_2_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_2_2" />
+                <item
+                    android:id="@+id/menu_2_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_2_3" />
+                <item
+                    android:id="@+id/menu_2_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_2_4" />
+                <item
+                    android:id="@+id/menu_2_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_2_5" />
+                <item
+                    android:id="@+id/menu_2_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_2_6" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_3" >
+            <menu>
+                <item
+                    android:id="@+id/menu_3_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_3_1" />
+                <item
+                    android:id="@+id/menu_3_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_3_2" />
+                <item
+                    android:id="@+id/menu_3_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_3_3" />
+                <item
+                    android:id="@+id/menu_3_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_3_4" />
+                <item
+                    android:id="@+id/menu_3_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_3_5" />
+                <item
+                    android:id="@+id/menu_3_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_3_6" />
+                <item
+                    android:id="@+id/menu_3_7"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_3_7" />
+                <item
+                    android:id="@+id/menu_3_8"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_3_8" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_4" >
+            <menu>
+                <item
+                    android:id="@+id/menu_4_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_4_1" />
+                <item
+                    android:id="@+id/menu_4_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_4_2" />
+                <item
+                    android:id="@+id/menu_4_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_4_3" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_5" >
+            <menu>
+                <item
+                    android:id="@+id/menu_5_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_5_1" />
+                <item
+                    android:id="@+id/menu_5_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_5_2" />
+                <item
+                    android:id="@+id/menu_5_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_5_3" />
+                <item
+                    android:id="@+id/menu_5_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_5_4" />
+                <item
+                    android:id="@+id/menu_5_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_5_5" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_6" >
+            <menu>
+                <item
+                    android:id="@+id/menu_6_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_6_1" />
+                <item
+                    android:id="@+id/menu_6_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_6_2" />
+                <item
+                    android:id="@+id/menu_6_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_6_3" />
+                <item
+                    android:id="@+id/menu_6_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_6_4" />
+                <item
+                    android:id="@+id/menu_6_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_6_5" />
+                <item
+                    android:id="@+id/menu_6_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_6_6" />
+                <item
+                    android:id="@+id/menu_6_7"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_6_7" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_7" >
+            <menu>
+                <item
+                    android:id="@+id/menu_7_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_7_1" />
+                <item
+                    android:id="@+id/menu_7_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_7_2" />
+                <item
+                    android:id="@+id/menu_7_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_7_3" />
+                <item
+                    android:id="@+id/menu_7_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_7_4" />
+                <item
+                    android:id="@+id/menu_7_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_7_5" />
+                <item
+                    android:id="@+id/menu_7_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_7_6" />
+                <item
+                    android:id="@+id/menu_7_7"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_7_7" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_8" >
+            <menu>
+                <item
+                    android:id="@+id/menu_8_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_1" />
+                <item
+                    android:id="@+id/menu_8_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_2" />
+                <item
+                    android:id="@+id/menu_8_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_3" />
+                <item
+                    android:id="@+id/menu_8_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_4" />
+                <item
+                    android:id="@+id/menu_8_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_5" />
+                <item
+                    android:id="@+id/menu_8_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_6" />
+                <item
+                    android:id="@+id/menu_8_7"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_7" />
+                <item
+                    android:id="@+id/menu_8_8"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_8" />
+                <item
+                    android:id="@+id/menu_8_9"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_9" />
+                <item
+                    android:id="@+id/menu_8_10"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_10" />
+                <item
+                    android:id="@+id/menu_8_11"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_11" />
+                <item
+                    android:id="@+id/menu_8_12"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_12" />
+                <item
+                    android:id="@+id/menu_8_13"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_13" />
+                <item
+                    android:id="@+id/menu_8_14"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_8_14" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_9" >
+            <menu>
+                <item
+                    android:id="@+id/menu_9_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_9_1" />
+                <item
+                    android:id="@+id/menu_9_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_9_2" />
+                <item
+                    android:id="@+id/menu_9_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_9_3" />
+                <item
+                    android:id="@+id/menu_9_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_9_4" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_10" >
+            <menu>
+                <item
+                    android:id="@+id/menu_10_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_10_1" />
+                <item
+                    android:id="@+id/menu_10_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_10_2" />
+                <item
+                    android:id="@+id/menu_10_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_10_3" />
+                <item
+                    android:id="@+id/menu_10_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_10_4" />
+                <item
+                    android:id="@+id/menu_10_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_10_5" />
+                <item
+                    android:id="@+id/menu_10_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_10_6" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_11" >
+            <menu>
+                <item
+                    android:id="@+id/menu_11_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_11_1" />
+                <item
+                    android:id="@+id/menu_11_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_11_2" />
+                <item
+                    android:id="@+id/menu_11_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_11_3" />
+                <item
+                    android:id="@+id/menu_11_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_11_4" />
+                <item
+                    android:id="@+id/menu_11_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_11_5" />
+                <item
+                    android:id="@+id/menu_11_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_11_6" />
+                <item
+                    android:id="@+id/menu_11_7"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_11_7" />
+                <item
+                    android:id="@+id/menu_11_8"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_11_8" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_12" >
+            <menu>
+                <item
+                    android:id="@+id/menu_12_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_12_1" />
+                <item
+                    android:id="@+id/menu_12_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_12_2" />
+                <item
+                    android:id="@+id/menu_12_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_12_3" />
+                <item
+                    android:id="@+id/menu_12_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_12_4" />
+                <item
+                    android:id="@+id/menu_12_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_12_5" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_13" >
+            <menu>
+                <item
+                    android:id="@+id/menu_13_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_13_1" />
+                <item
+                    android:id="@+id/menu_13_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_13_2" />
+                <item
+                    android:id="@+id/menu_13_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_13_3" />
+                <item
+                    android:id="@+id/menu_13_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_13_4" />
+                <item
+                    android:id="@+id/menu_13_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_13_5" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_14" >
+            <menu>
+                <item
+                    android:id="@+id/menu_14_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_14_1" />
+                <item
+                    android:id="@+id/menu_14_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_14_2" />
+                <item
+                    android:id="@+id/menu_14_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_14_3" />
+                <item
+                    android:id="@+id/menu_14_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_14_4" />
+                <item
+                    android:id="@+id/menu_14_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_14_5" />
+                <item
+                    android:id="@+id/menu_14_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_14_6" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/menu_15" >
+            <menu>
+                <item
+                    android:id="@+id/menu_15_1"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_1" />
+                <item
+                    android:id="@+id/menu_15_2"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_2" />
+                <item
+                    android:id="@+id/menu_15_3"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_3" />
+                <item
+                    android:id="@+id/menu_15_4"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_4" />
+                <item
+                    android:id="@+id/menu_15_5"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_5" />
+                <item
+                    android:id="@+id/menu_15_6"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_6" />
+                <item
+                    android:id="@+id/menu_15_7"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_7" />
+                <item
+                    android:id="@+id/menu_15_8"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_8" />
+                <item
+                    android:id="@+id/menu_15_9"
+                    android:icon="@drawable/checkbox_off_background"
+                    android:title="@string/menu_15_9" />
+            </menu>
+        </item>
+    </group>
+</menu>
